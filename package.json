@@ -1,0 +1,22 @@
+{
+  "name": "notes-of-encouragement",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "David Neal <david@reverentgeek.com> (https://reverentgeek.com)",
+  "license": "MIT",
+  "bin": {
+    "heybuddy": "./bin/index.js"
+  },
+  "dependencies": {
+    "boxen": "^4.1.0",
+    "chalk": "^2.4.2"
+  },
+  "devDependencies": {
+    "eslint": "^6.0.1"
+  }
+}
