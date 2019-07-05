@@ -15,11 +15,12 @@ If you want to use this application for someone special, you can update the foll
 
 1. Download and install [node.js](https://nodejs.org).
 1. Download, extract, and modify this source code, or copy all the modified source code from your computer to a folder on their computer.
-1. Open up a terminal/command window. 
+1. Open up a terminal/command window.
 1. Change to the directory where the source code files are located.
-1. Run the following command to install it as a CLI app.
+1. Run the following command to install dependencies and install it as a CLI app.
 
 ```bash
+npm install
 npm install -g .
 ```
 
