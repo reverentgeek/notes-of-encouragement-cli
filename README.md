@@ -4,6 +4,8 @@ This is a command-line interface (CLI) application written in Node.js that displ
 
 I wrote this application for my son, so he can always get a note of encouragement from me whenever he needs one. You don't even need to be connected to the Internet!
 
+![Example Note](./cli-app-example.png)
+
 ## Modifying For Someone Special in Your Life
 
 If you want to use this application for someone special, you can update the following using a good editor like [Visual Studio Code](https://code.visualstudio.com):
