@@ -1,8 +1,9 @@
 {
 	"name": "notes-of-encouragement",
-	"version": "1.0.2",
+	"version": "2.0.0",
 	"description": "",
 	"main": "bin/index.js",
+	"type": "module",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
@@ -13,10 +14,11 @@
 		"heybuddy": "./bin/index.js"
 	},
 	"dependencies": {
-		"boxen": "^5.1.2",
-		"chalk": "^4.1.2"
+		"boxen": "^8.0.1",
+		"chalk": "^5.3.0"
 	},
 	"devDependencies": {
-		"eslint": "^8.12.0"
+		"eslint": "^9.14.0",
+		"eslint-config-reverentgeek": "^5.1.0"
 	}
 }
