@@ -1,9 +1,12 @@
 {
 	"name": "notes-of-encouragement",
-	"version": "2.0.1",
+	"version": "2.0.2",
 	"description": "",
 	"main": "bin/index.js",
 	"type": "module",
+	"engines": {
+		"node": ">=22"
+	},
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
@@ -19,6 +22,6 @@
 	},
 	"devDependencies": {
 		"eslint": "^9.14.0",
-		"eslint-config-reverentgeek": "^5.1.0"
+		"eslint-config-reverentgeek": "^6.0.2"
 	}
 }

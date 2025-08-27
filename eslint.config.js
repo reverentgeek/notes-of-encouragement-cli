@@ -1,12 +1,6 @@
+/* eslint-disable-next-line n/no-unpublished-import */
 import rg from "eslint-config-reverentgeek";
 
 export default [
-	...rg.configs[ "node-esm" ],
-	{
-		rules: {
-			"n/no-unpublished-import": [ "error", {
-				allowModules: [ "eslint-config-reverentgeek" ]
-			} ]
-		}
-	}
+	rg.configs["node-esm"]
 ];

@@ -24,7 +24,6 @@ try {
 	const randomNote = notes[getRandomIndex( notes.length )];
 	const message = `${ randomIntro }\n${ randomNote }`;
 	console.log( boxen( chalk.bold( message ), boxenOptions ) );
-}
-catch ( error ) {
+} catch ( error ) {
 	console.error( error );
 }
