@@ -1,6 +1,6 @@
 {
 	"name": "notes-of-encouragement",
-	"version": "2.0.4",
+	"version": "2.0.5",
 	"description": "",
 	"main": "bin/index.js",
 	"type": "module",
@@ -21,7 +21,7 @@
 		"chalk": "^5.6.2"
 	},
 	"devDependencies": {
-		"eslint": "^9.37.0",
-		"eslint-config-reverentgeek": "^6.3.0"
+		"eslint": "^9.38.0",
+		"eslint-config-reverentgeek": "^6.3.1"
 	}
 }
