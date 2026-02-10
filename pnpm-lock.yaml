@@ -19,8 +19,8 @@ importers:
         specifier: ^10.0.0
         version: 10.0.0
       eslint-config-reverentgeek:
-        specifier: ^7.0.0
-        version: 7.0.0(eslint@10.0.0)(typescript@5.9.2)
+        specifier: ^7.0.1
+        version: 7.0.1(eslint@10.0.0)(typescript@5.9.2)
 
 packages:
 
@@ -87,8 +87,8 @@ packages:
     resolution: {integrity: sha512-WMz71T1JS624nWj2n2fnYAuPovhv7EUhk69R6i9dsVyzxt5eM3bjwvgk9L+APE1TRscGysAVMANkB0jh0LQZrQ==}
     engines: {node: 20 || >=22}
 
-  '@stylistic/eslint-plugin@5.7.1':
-    resolution: {integrity: sha512-zjTUwIsEfT+k9BmXwq1QEFYsb4afBlsI1AXFyWQBgggMzwBFOuu92pGrE5OFx90IOjNl+lUbQoTG7f8S0PkOdg==}
+  '@stylistic/eslint-plugin@5.8.0':
+    resolution: {integrity: sha512-WNPVF/FfBAjyi3OA7gok8swRiImNLKI4dmV3iK/GC/0xSJR7eCzBFsw9hLZVgb1+MYNLy7aDsjohxN1hA/FIfQ==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
       eslint: '>=9.0.0'
@@ -102,8 +102,8 @@ packages:
   '@types/json-schema@7.0.15':
     resolution: {integrity: sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==}
 
-  '@typescript-eslint/types@8.54.0':
-    resolution: {integrity: sha512-PDUI9R1BVjqu7AUDsRBbKMtwmjWcn4J3le+5LpcFgWULN3LvHC5rkc9gCVxbrsrGmO1jfPybN5s6h4Jy+OnkAA==}
+  '@typescript-eslint/types@8.55.0':
+    resolution: {integrity: sha512-ujT0Je8GI5BJWi+/mMoR0wxwVEQaxM+pi30xuMiJETlX80OPovb2p9E8ss87gnSVtYXtJoU9U1Cowcr6w2FE0w==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
   acorn-jsx@5.3.2:
@@ -186,8 +186,8 @@ packages:
     peerDependencies:
       eslint: '>=6.0.0'
 
-  eslint-config-reverentgeek@7.0.0:
-    resolution: {integrity: sha512-V3p80+w2ViOKaouZR3KiJVwkXNTU5p2Y+HTrg0KI1xtHn+bzxL1QSbNPSoxygVeIE8m0/5StkuwN4vSZg56jiA==}
+  eslint-config-reverentgeek@7.0.1:
+    resolution: {integrity: sha512-fulACrtvzk0k1PY9XTQfkRTAe+CWyy4FLPcXmipKNy6dgFU2mNrNEX+wrxdK1nYpqhgwydD36KBF2M6hOuWQXQ==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
       eslint: '>=10.0.0'
@@ -519,10 +519,10 @@ snapshots:
     dependencies:
       '@isaacs/balanced-match': 4.0.1
 
-  '@stylistic/eslint-plugin@5.7.1(eslint@10.0.0)':
+  '@stylistic/eslint-plugin@5.8.0(eslint@10.0.0)':
     dependencies:
       '@eslint-community/eslint-utils': 4.9.1(eslint@10.0.0)
-      '@typescript-eslint/types': 8.54.0
+      '@typescript-eslint/types': 8.55.0
       eslint: 10.0.0
       eslint-visitor-keys: 4.2.1
       espree: 10.4.0
@@ -535,7 +535,7 @@ snapshots:
 
   '@types/json-schema@7.0.15': {}
 
-  '@typescript-eslint/types@8.54.0': {}
+  '@typescript-eslint/types@8.55.0': {}
 
   acorn-jsx@5.3.2(acorn@8.15.0):
     dependencies:
@@ -605,10 +605,10 @@ snapshots:
       eslint: 10.0.0
       semver: 7.7.4
 
-  eslint-config-reverentgeek@7.0.0(eslint@10.0.0)(typescript@5.9.2):
+  eslint-config-reverentgeek@7.0.1(eslint@10.0.0)(typescript@5.9.2):
     dependencies:
       '@eslint/js': 10.0.1(eslint@10.0.0)
-      '@stylistic/eslint-plugin': 5.7.1(eslint@10.0.0)
+      '@stylistic/eslint-plugin': 5.8.0(eslint@10.0.0)
       eslint: 10.0.0
       eslint-plugin-n: 17.23.2(eslint@10.0.0)(typescript@5.9.2)
       globals: 17.3.0
