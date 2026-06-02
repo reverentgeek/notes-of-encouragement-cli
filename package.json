@@ -4,6 +4,11 @@
 	"description": "",
 	"main": "bin/index.js",
 	"type": "module",
+	"files": [
+		"bin/index.js",
+		"bin/lib.js",
+		"bin/notes.json"
+	],
 	"engines": {
 		"node": "^22.16.0 || >=24.0.0"
 	},
