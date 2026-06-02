@@ -5,10 +5,10 @@
 	"main": "bin/index.js",
 	"type": "module",
 	"engines": {
-		"node": ">=22.16"
+		"node": "^22.16.0 || >=24.0.0"
 	},
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"test": "node --test"
 	},
 	"keywords": [],
 	"author": "David Neal <david@reverentgeek.com> (https://reverentgeek.com)",
