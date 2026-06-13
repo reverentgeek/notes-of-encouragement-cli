@@ -1,6 +1,6 @@
 {
 	"name": "notes-of-encouragement",
-	"version": "2.1.2",
+	"version": "2.1.3",
 	"description": "",
 	"main": "bin/index.js",
 	"type": "module",
