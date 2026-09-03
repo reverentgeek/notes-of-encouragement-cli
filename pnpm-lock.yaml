@@ -19,8 +19,8 @@ importers:
         specifier: ^10.9.1
         version: 10.9.1
       eslint-config-reverentgeek:
-        specifier: ^7.1.19
-        version: 7.1.19(eslint@10.9.1)
+        specifier: ^7.1.20
+        version: 7.1.20(eslint@10.9.1)
 
 packages:
 
@@ -98,8 +98,8 @@ packages:
   '@types/json-schema@7.0.15':
     resolution: {integrity: sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==}
 
-  '@typescript-eslint/types@8.68.0':
-    resolution: {integrity: sha512-9RnpsGJjrAllCMefGVVsImJM24YurhC0Q1h4UbvivtvOqXmR/vEJge2OoE++z9m6hyg8T1Q8t5SNT6tHSbrxcg==}
+  '@typescript-eslint/types@8.69.0':
+    resolution: {integrity: sha512-K3VrubUPhlo9VDBS6QdI8YB5j7ClpqLRdefcz6PFrhnwicehBweqQ9Evhl4l+FYz0HdDmMqIiSX0aldGRYtDCA==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
   acorn-jsx@5.3.2:
@@ -194,8 +194,8 @@ packages:
     peerDependencies:
       eslint: '>=6.0.0'
 
-  eslint-config-reverentgeek@7.1.19:
-    resolution: {integrity: sha512-vnRME1p/+5xI3yA51Dwr4vLUdd79rpWWtz3jLiKG5WCppX3ZZo2IzJHcueQhxwGOgGRi2LwCA7iGZ0xojQyQEg==}
+  eslint-config-reverentgeek@7.1.20:
+    resolution: {integrity: sha512-OuVceS0rvoJy5aEoNVGSynkj5mWiykkzjj0wPMR58AGjgKqIadRZdyMWhbgVOhqRdfdZiNQMTygZexzEFqRRvA==}
     engines: {node: '>=20.0.0'}
     peerDependencies:
       eslint: '>=10.0.0'
@@ -308,8 +308,8 @@ packages:
     resolution: {integrity: sha512-7ACyT3wmyp3I61S4fG682L0VA2RGD9otkqGJIwNUMF1SWUombIIk+af1unuDYgMm082aHYwD+mzJvv9Iu8dsgg==}
     engines: {node: '>=18'}
 
-  globals@17.11.0:
-    resolution: {integrity: sha512-Z2I8hM+PbJDXQDq3Icgpzv+mPdwr68iZUU9d5WW4FuXfDUQfkZaZuvjMv42/5crNyw154+9+VWXbYrUgDXbxNw==}
+  globals@17.12.0:
+    resolution: {integrity: sha512-cezEd/DTyyht9cvSSURyygXPfy04GtWO/5e6ZPvH7fCtjKz9PYOmuawphw1Ctd1f6C+5JypXfGD7ahNMXvevBA==}
     engines: {node: '>=18'}
 
   globrex@0.1.2:
@@ -526,7 +526,7 @@ snapshots:
   '@stylistic/eslint-plugin@5.10.0(eslint@10.9.1)':
     dependencies:
       '@eslint-community/eslint-utils': 4.10.1(eslint@10.9.1)
-      '@typescript-eslint/types': 8.68.0
+      '@typescript-eslint/types': 8.69.0
       eslint: 10.9.1
       eslint-visitor-keys: 4.2.1
       espree: 10.4.0
@@ -539,7 +539,7 @@ snapshots:
 
   '@types/json-schema@7.0.15': {}
 
-  '@typescript-eslint/types@8.68.0': {}
+  '@typescript-eslint/types@8.69.0': {}
 
   acorn-jsx@5.3.2(acorn@8.18.0):
     dependencies:
@@ -617,13 +617,13 @@ snapshots:
       eslint: 10.9.1
       semver: 7.8.5
 
-  eslint-config-reverentgeek@7.1.19(eslint@10.9.1):
+  eslint-config-reverentgeek@7.1.20(eslint@10.9.1):
     dependencies:
       '@eslint/js': 10.0.1(eslint@10.9.1)
       '@stylistic/eslint-plugin': 5.10.0(eslint@10.9.1)
       eslint: 10.9.1
       eslint-plugin-n: 18.3.0(eslint@10.9.1)
-      globals: 17.11.0
+      globals: 17.12.0
     transitivePeerDependencies:
       - ts-declaration-location
       - typescript
@@ -753,7 +753,7 @@ snapshots:
 
   globals@15.15.0: {}
 
-  globals@17.11.0: {}
+  globals@17.12.0: {}
 
   globrex@0.1.2: {}
 
