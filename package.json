@@ -27,8 +27,8 @@
 		"chalk": "^6.0.1"
 	},
 	"devDependencies": {
-		"eslint": "^10.11.0",
-		"eslint-config-reverentgeek": "^7.1.23"
+		"eslint": "^10.12.0",
+		"eslint-config-reverentgeek": "^7.1.24"
 	},
-	"packageManager": "pnpm@12.8.0+sha512.3916e9559cdfbddf7dc921e8999076584425161de773f6cabf7f47467f0d9452bfa89a689ec245753ad3d55abcb3cf706e667ac12062dbc9c625fbd72bca20dc"
+	"packageManager": "pnpm@12.9.1+sha512.06b055fff5cd20dc12781de173ced3310ce0951bf2ec620211a16045d5444d5c93a663210764ef29a653a610459ba0368f0e74f84d80c54723cf95aae7bc0d6d"
 }
