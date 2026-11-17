@@ -186,8 +186,8 @@ importers:
         specifier: ^10.15.0
         version: 10.15.0
       eslint-config-reverentgeek:
-        specifier: ^7.2.0
-        version: 7.2.0(eslint@10.15.0)
+        specifier: ^7.2.2
+        version: 7.2.2(eslint@10.15.0)
 
 packages:
 
@@ -268,8 +268,8 @@ packages:
   '@keyv/serialize@1.1.1':
     resolution: {integrity: sha512-dXn3FZhPv0US+7dtJsIi2R+c7qWYiReoEh5zUntWCf4oSpMNib8FDhSoed6m3QyZdx5hK7iLFkYk3rNxwt8vTA==}
 
-  '@stylistic/eslint-plugin@6.0.0':
-    resolution: {integrity: sha512-phICSey4OqR8nkSwmoeXsl9EBzv30Zqbge4jrK3CU02GhjTgZ+y5qhTTg92EDK5j7JhX2xzp4VvH+YYUknQ8/Q==}
+  '@stylistic/eslint-plugin@6.0.1':
+    resolution: {integrity: sha512-7nyi2RmGIuzBYGq5C8cFaoQsh+COfo6oHMWCygzg2iaqJJ4RDThaKCMYRkkOUAQWv80R7sbBbpuKZfulH7bFcw==}
     engines: {node: ^20.19.0 || ^22.13.0 || >=24}
     peerDependencies:
       eslint: ^9.0.0 || ^10.0.0
@@ -374,8 +374,8 @@ packages:
     peerDependencies:
       eslint: '>=6.0.0'
 
-  eslint-config-reverentgeek@7.2.0:
-    resolution: {integrity: sha512-Rw7Pxup/Xz6kTv7sBiIExp+edJUlcD9R/uIRcnhdt7Bwdm/S0YpLvl0Ez/MFfp9ZRhF8nJfWQqSHfv4Fmr4c7g==}
+  eslint-config-reverentgeek@7.2.2:
+    resolution: {integrity: sha512-8f+/gtv4mUvBTEUcSj+pQSmpN/bSbQFGe6c1CUwMO0/CnX91y0New9rrapavGylz4LjhJ5NrEM4+OMLVCAtHnw==}
     engines: {node: '>=20.0.0'}
     peerDependencies:
       eslint: '>=10.0.0'
@@ -730,7 +730,7 @@ snapshots:
 
   '@keyv/serialize@1.1.1': {}
 
-  '@stylistic/eslint-plugin@6.0.0(eslint@10.15.0)':
+  '@stylistic/eslint-plugin@6.0.1(eslint@10.15.0)':
     dependencies:
       '@eslint-community/eslint-utils': 4.10.1(eslint@10.15.0)
       '@typescript-eslint/types': 8.72.2
@@ -824,10 +824,10 @@ snapshots:
       eslint: 10.15.0
       semver: 7.8.6
 
-  eslint-config-reverentgeek@7.2.0(eslint@10.15.0):
+  eslint-config-reverentgeek@7.2.2(eslint@10.15.0):
     dependencies:
       '@eslint/js': 10.0.1(eslint@10.15.0)
-      '@stylistic/eslint-plugin': 6.0.0(eslint@10.15.0)
+      '@stylistic/eslint-plugin': 6.0.1(eslint@10.15.0)
       eslint: 10.15.0
       eslint-plugin-n: 18.5.0(eslint@10.15.0)
       globals: 17.14.0
